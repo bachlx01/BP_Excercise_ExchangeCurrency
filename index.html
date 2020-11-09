@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exchange Currency</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+<div class="main">
+    <h3>CHUYỂN ĐỔI TIỀN TỆ</h3>
+    <div class="container">
+
+            <div class="row1">
+                <label>Amount</label> <br>
+                <input id="amount" type="text">
+            </div>
+            <div class="row2">
+                <label>From Currency</label> <br>
+                <select name="FromCurrency" id="FromCurrency">
+                    <option value="1">USD</option>
+                    <option value="23000">VietNam</option>
+                </select>
+            </div>
+            <div class="row3">
+                <label>To Currency</label> <br>
+                <select name="ToCurrency" id="ToCurrency">
+                    <option value="23000">VND</option>
+                    <option value="1">USD</option>
+                </select>
+            </div>
+            <div class="row4">
+                <br>
+                <button onclick="convert()">Convert</button>
+            </div>
+            <div style="clear:both"></div>
+            <div id="result" class="result"></div>
+
+    </div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

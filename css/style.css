@@ -1,0 +1,41 @@
+.main{
+    width: 800px;
+    margin: 0 auto;
+}
+h3{
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+}
+
+.row1{
+    float:left;
+    margin: 5px;
+    width: 25%;
+    text-align: center;
+}
+
+.row2{
+    float:left;
+    margin: 5px;
+    width: 25%;
+}
+
+.row3{
+    float:left;
+    margin: 5px;
+    width: 25%;
+}
+
+.row4{
+    float:left;
+    margin: 5px;
+
+}
+.result{
+    margin-left: 22px;
+    width: 100%;
+    height: 40px;
+    color: #0000fe;
+}
